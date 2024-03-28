@@ -15,7 +15,7 @@
         $num = $_POST["n"] ?? 0;
         $int = (int) $num;
         $fra = $num - $int;
-        // Ivan me orientou à abrir e fechar tags php para executar somente trechos de código php, como no exemplo abaixo, os echos foram removidos dando lugar as tags de php ternário, separando o que é html do que é php. Além disso a concatenação saiu.
+        // Ivan me orientou à abrir e fechar tags php para executar somente trechos de código php, como no exemplo abaixo, os echos foram removidos dando lugar as tags de php ternário, separando o que é html do que é php. Além disso a concatenação saiu...
         ?>
         <p> Analisando o número <strong> <?= number_format($num, 3, ",", ".") ?> </strong> informado pelo usuário: </p>
         <ul>
