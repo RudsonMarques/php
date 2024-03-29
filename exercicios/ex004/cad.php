@@ -16,7 +16,7 @@
         <?php
         $nome = $_GET["nome"] ?? "kd o nome?"; //operador de coalescência nula ??
         $sobrenome = $_GET["sobrenome"] ?? "Kd o sobrenome karai? "; 
-        echo "<p>É prazer te conhecer,<strong> $nome $sobrenome </strong>, bem vindo ao meu website! <p>";
+        echo "<p>É um prazer te conhecer,<strong> $nome $sobrenome </strong>, bem vindo ao meu website! <p>";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>
