@@ -15,6 +15,13 @@
 
     $valor1 = $_GET['v1'] ?? 0;
     $valor2 = $_GET['v2'] ?? 0;
+   
+    // $valor1 = isset($_GET['v1']) == "" ? 0 : $_GET['v1'];
+    // $valor2 = isset($_GET['v2']) == "" ? 0 : $_GET['v2'];
+
+    // $valor1 = empty($_GET['v1']) ? 0 : $_GET['v1'];
+    // $valor2 = empty($_GET['v2']) ? 0 : $_GET['v2'];
+
 
     ?>
     <main>
@@ -33,8 +40,9 @@
         <h2> Resultado da Soma </h2>
         <?php
         $soma = $valor1 + $valor2;
-        print "<p> A soma entre os valores $valor1 e $valor2 <strong> é igual a $soma</strong> </p>"
         ?>
+        <p> A soma entre os valores <?= $valor1 ?> e <?= $valor2 ?> <strong> é igual a <?= $soma ?> </strong> </p>
+ 
     </section>
 
 </body>
